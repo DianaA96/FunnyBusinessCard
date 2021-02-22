@@ -1,0 +1,59 @@
+
+header {
+    visibility: hidden;
+    font-size: 200%;
+}
+
+#tarjeta {
+    color: #6382FA;
+    margin-left: 200px;
+    margin-right: 200px;
+    /* display: inline-flexbox; */
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px;
+    background-clip: padding-box;
+    background-color: #FFF8A7;
+    border: 1px solid #ccc;
+    box-shadow: 0px 5px 25px #aaa;
+    border-radius: 10px;
+}
+
+#fotoTarjeta{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: center;
+    background-color: #FFF8A7;
+}
+
+#textoTarjeta {
+    padding: 10px;
+    justify-content: left;
+    background-clip: content-box;
+    background-color: #FFF8A7;
+}
+
+#nombre, #textoBienvenida {
+    padding: 2px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+  }
+
+.opcionesContacto{
+    padding: 20px 60px 0px 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.listaContacto{
+    display: flex;
+    padding: auto 0px 0px auto;
+    flex-direction: column;
+    justify-content: space-around;
+}
