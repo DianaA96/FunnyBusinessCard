@@ -4,17 +4,17 @@ import './Bubbles.css';
 function Bubbles () {
     return(
         <div className="bubblesContainer">
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-    </div>
+            <div className="bubble"></div>
+            <div className="bubble"></div>
+            <div className="bubble"></div>
+            <div className="bubble"></div>
+            <div className="bubble"></div>
+            <div className="bubble"></div>
+            <div className="bubble"></div>
+            <div className="bubble"></div>
+            <div className="bubble"></div>
+            <div className="bubble"></div>
+        </div>
     )
 };
 

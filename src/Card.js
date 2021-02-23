@@ -23,7 +23,9 @@ function Card() {
                 <div id='textoTarjeta'>
                     <h2 id='nombre'>Diana Guadalupe García Aguirre</h2>
                     <h3 id='textoBienvenida'>Puedes encontrarme por acá:</h3>
+
                     <div className='opcionesContacto'>
+
                         <div className='listaContacto'>
                             <div><img src={logoCorreo} width='30px' alt=''/></div>
                             <div><img src={logoFacebook} width='30px' alt=''/></div>
@@ -31,6 +33,7 @@ function Card() {
                             <div><img src={logoGithub} width='30px' alt=''/></div>
                             <div><img src={logoLinkedIn} width='30px' alt=''/></div>
                         </div>
+
                         <div className='listaContacto'>
                                 <div>dianaa960611@gmail.com</div>
                                 <div>diana.aguirre.0011</div>
@@ -38,8 +41,11 @@ function Card() {
                                 <div>DianaA96</div>
                                 <div>diana-garcia-aguirre</div>
                         </div>
+
                     </div>
+                    
                 </div>
+
             </section>
     </React.Fragment>
     )
