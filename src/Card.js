@@ -7,7 +7,11 @@ import logoInstagram from './instagramLogo.png';
 import logoLinkedIn from './linkedinLogo.png';
 import logoGithub from './githubLogo.png';
 
-function Card() {
+
+function Card(props) {
+
+    let [facebook, gitHub, instagram, linkedIn, email] = props.logosLinks;
+
     return(
         <React.Fragment>
             <header>
@@ -21,25 +25,25 @@ function Card() {
                 </div> 
 
                 <div id='textoTarjeta'>
-                    <h2 id='nombre'>Diana Guadalupe García Aguirre</h2>
+                    <h2 id='nombre'>{`${props.nombres} ${props.apellidos}`}</h2>
                     <h3 id='textoBienvenida'>Puedes encontrarme por acá:</h3>
 
                     <div className='opcionesContacto'>
 
                         <div className='listaContacto'>
-                            <div><img src={logoCorreo} width='30px' alt=''/></div>
-                            <div><img src={logoFacebook} width='30px' alt=''/></div>
-                            <div><img src={logoInstagram} width='30px' alt=''/></div>
-                            <div><img src={logoGithub} width='30px' alt=''/></div>
-                            <div><img src={logoLinkedIn} width='30px' alt=''/></div>
+                            <div><img src={logoCorreo} width='30px' alt='Correo electrónico'/></div>
+                            <div><img src={logoFacebook} width='30px' alt='Facebook'/></div>
+                            <div><img src={logoInstagram} width='30px' alt='Instagram'/></div>
+                            <div><img src={logoGithub} width='30px' alt='GitHub'/></div>
+                            <div><img src={logoLinkedIn} width='30px' alt='LinkedIn'/></div>
                         </div>
 
                         <div className='listaContacto'>
-                                <div>dianaa960611@gmail.com</div>
-                                <div>diana.aguirre.0011</div>
-                                <div>dianaa0011</div>
-                                <div>DianaA96</div>
-                                <div>diana-garcia-aguirre</div>
+                                <div>{email}</div>
+                                <div>{facebook}</div>
+                                <div>{instagram}</div>
+                                <div>{gitHub}</div>
+                                <div>{linkedIn}</div>
                         </div>
 
                     </div>
