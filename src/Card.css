@@ -6,9 +6,8 @@ header {
 
 #tarjeta {
     color: #6382FA;
-    margin-left: 200px;
-    margin-right: 200px;
-    /* display: inline-flexbox; */
+    margin-left: 1%;
+    margin-right: 1%;
     justify-content: space-around;
     flex-direction: row;
     align-items: center;
@@ -53,7 +52,7 @@ ul {
 
 .listaContacto{
     display: flex;
-    padding: auto 0px 0px auto;
+    padding: 0%;
     flex-direction: column;
     justify-content: space-around;
 }
